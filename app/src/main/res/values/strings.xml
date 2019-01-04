@@ -1,0 +1,8 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+        <string name="app_name"></string>
+        <string name="success">성공</string>
+        <string name="ok">확인</string>
+</resources>

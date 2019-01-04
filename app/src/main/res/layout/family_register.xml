@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/register_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/toolbar_background"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:lineSpacingExtra="4sp"
+        android:text="가족 정보" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:textColor="#999999"
+        android:lineSpacingExtra="0sp"
+        android:text="가족의 이름"
+        />
+
+    <EditText
+        android:id="@+id/inputNameF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        android:textColor="#333333"
+        android:lineSpacingExtra="17sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:textColor="#999999"
+        android:lineSpacingExtra="0sp"
+        android:text="가족의 핸드폰 번호" />
+
+    <EditText
+        android:id="@+id/inputPhoneF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="15sp"
+        android:textColor="#333333"
+        android:lineSpacingExtra="17sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:background="@drawable/button_selector"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:id="@+id/button_rg"
+        android:text="등록"
+        android:textSize="18sp"
+        android:textColor="@color/text_selector"
+        android:layout_marginHorizontal="30dp"
+        android:lineSpacingExtra="31sp"/>
+
+</LinearLayout>

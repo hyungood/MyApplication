@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/certificate"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="약속 확인"
+        android:textSize="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/deep_gray"
+        android:paddingTop="38dp"
+        />
+
+</FrameLayout>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginBottom="7dp"
+        />
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      />
+
+</LinearLayout>

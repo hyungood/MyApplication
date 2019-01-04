@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/textView0"
+        android:textSize="25dp"
+        android:textColor="#79c9a1"
+        android:textAlignment="center"
+        android:paddingTop="30dp"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:textColor="#A6A6A6"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="약속행동"
+            android:id="@+id/textView2"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#A6A6A6"
+            android:layout_weight="1"
+            android:clickable="false"
+            />
+    </LinearLayout>
+
+        <CheckBox
+            android:paddingTop="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check1"
+            android:layout_marginLeft="160dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

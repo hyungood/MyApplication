@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+    <!--사용자 사진 넣기-->
+    <ImageView
+        android:id="@+id/userImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:paddingBottom="@dimen/nav_header_vertical_spacing"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:text="id" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"
+        android:text="게임시간 보기"
+        android:textSize="20dp"
+        android:textColor="@color/text_selector"
+        android:id="@+id/gameTime"
+        android:background="@drawable/button_selector"
+        android:onClick="onClick"
+        />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="2dp"
+        android:text="약속 확인"
+        android:textSize="20dp"
+        android:textColor="@color/text_selector"
+        android:id="@+id/contractChk"
+        android:background="@drawable/button_selector"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="2dp"
+        android:text="내 점수 보기"
+        android:textColor="@color/text_selector"
+        android:id="@+id/score"
+        android:textSize="20dp"
+        android:background="@drawable/button_selector"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="2dp"
+        android:textSize="20dp"
+        android:text="개인정보 수정"
+        android:textColor="@color/text_selector"
+        android:id="@+id/change"
+        android:background="@drawable/button_selector"
+        android:onClick="onClick"
+        />
+
+
+</LinearLayout>
